@@ -8,6 +8,7 @@
     </title>
 </head>
 <body>
+    @include("layouts._partials.menu")
     @yield("cuerpo")
 </body>
 </html>
